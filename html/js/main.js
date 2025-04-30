@@ -35,6 +35,7 @@ function createCards(prods) {
           <div class="card shadow-sm">
           <img class="bd-placeholder-img card-img-top" src="${img}" alt="${prods[i].tittle}" width="100%" height="225" style="object-fit: cover;">
             <div class="card-body">
+             <h5 class="card-title">${prods[i].title}</h5>
               <p class="card-text"> ${prods[i].description}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
